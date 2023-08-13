@@ -1,0 +1,33 @@
+.user-wrap {
+  margin-top: 20px;
+  .card {
+    padding: 20px;
+    border-radius: 10px;
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+    background-color: #469597;
+    .name {
+      color: #2d5fc2;
+      font-size: 25px;
+    }
+    &__block {
+      display: flex;
+      width: 100%;
+      gap: 10px;
+    }
+    .avatar {
+      width: 100px;
+      height: 100px;
+    }
+    .bio {
+      color: #ddbeaa;
+      font-size: 20px;
+    }
+    .link {
+      text-decoration: none;
+      color: #ccaadd;
+      font-size: 20px;
+    }
+  }
+}
